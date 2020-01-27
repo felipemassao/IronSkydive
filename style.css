@@ -36,15 +36,29 @@ h4{
   font-size: 1.5em;
   letter-spacing: 0.4px;
   line-height: 1em;
+  margin-bottom: 15px;
 }
 
 h5{
   font-size: 1.2em;
   line-height: 1em;
+  margin-top:0;
+  margin-bottom:0;
 }
 
 .nav-bar{
   background: rgb(25, 33, 41);
+  padding: 14px 0px 14px 0px;
+}
+
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
 }
 
 .nav-bar a{
@@ -53,21 +67,28 @@ h5{
   font-size: 2em;
 }
 
-header {
+.header {
   background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  padding-top: 50px;
 }
 
-header h2{
+.header h2{
   color: white;
   text-shadow: #020819 8px -20px 9px;
 }
 
 .quote {
   font-size:2.5em;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
 }
 
 .dark-background {
@@ -79,6 +100,8 @@ header h2{
   font-size:2em;
   font-weight: 100;
   text-align: center;
+  margin-top:20px;
+  margin-bottom:20px;
 }
 
 .link-btn {
@@ -94,10 +117,32 @@ header h2{
 .service-box {
   font-size:1.7em;
   text-align: center;
+  border: 2px solid #e6e6e6;
+  border-radius:20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #bfbfbf;
+  margin:50px 5% 0 5%;
+  padding:20px 20px 20px 20px;
+  width: 40%;
 }
 
 .service-box img {
   width: 125px;
+}
+
+#team {
+  padding: 75px 0;
+  margin: 0 auto;
+}
+
+#team p {
+  width: 60%;
+  margin:10px auto;
+}
+
+#team hr {
+  width: 40%;
+  margin:20px auto 30px auto;
 }
 
 #team .section-text {
@@ -115,14 +160,28 @@ header h2{
   heigth: 180px;
 }
 
+.schedule-table {
+  margin:0 auto 40px auto;
+  font-size:1.5em;
+}
+
+.schedule-table th, td {
+  border-bottom:1px solid black;
+  padding:5px 10px 5px 10px;
+  text-align: center;
+}
+
 .address {
   font-size: 0.8em;
   font-style: normal;
+  margin-bottom:30px;
 }
 
 .footer {
   font-size: 1.9em;
   text-align: center;
+  padding:40px 100px 40px 100px;
+  margin-bottom:25px;
 }
 
 .footer a {
